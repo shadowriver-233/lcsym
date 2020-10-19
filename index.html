@@ -1,0 +1,67 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>demo</title>
+<meta  http-equiv="Content-Type" content = "text/html;charset = UTF-8">
+<script src="js/jquery-3.5.1.min.js"></script>
+<link id = "l01" rel="stylesheet" type="text/css" href="css/surprise_css.css"/>
+
+</head>
+<body>
+	<!--更换背景-->
+	<div id="changewall"></div>
+	<!--搜索历史-->
+	
+		<div id="history">
+			<div id="historytop"></div>
+			<div id="historytext"></div>
+		</div>
+	
+		
+	
+	<!--收藏夹菜单-->
+	<div id = "container">
+	
+		<form id = "fl" action="http://www.baidu.com/baidu" target="_blank"> 
+			<!--时钟-->
+			
+			<div id="clock"></div>
+
+			<!--搜索框及提交按钮-->
+			
+			<div id = "ct" >
+				
+					<div id="historyButton">
+						
+					</div>
+				
+				
+				<input id="searchname" baiduSug="1" type="text" name="wd" value="" autocomplete="off">
+				
+				<div id="subcontainer">
+				
+					<input type="submit" value="">
+				
+				</div>
+			</div>
+			
+			<!--搜索引擎选择-->
+			<div id="container3">
+		
+				<div  id="baidu" class ="engine" onclick="changeBaidu()"> 百度搜索</div>
+			
+				<div  id="biying" class ="engine" onclick="changeBiying()"> 必应搜索</div>
+			
+				<div  id="google" class ="engine" onclick="changeGoogle()"> 谷歌搜索</div>
+		
+			</div>
+		
+		</form>
+	
+	</div>
+	
+	<script id ="js2" type="text/javascript" src="js/surprise_js.js"></script>
+</body>
+<script charset="gbk" src="http://www.baidu.com/js/opensug.js"></script>
+
+</html>
